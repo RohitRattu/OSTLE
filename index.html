@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OSTLE</h1>
+        <h2 id="score">Score: </h2>
+        <div class="audio-player">
+            <audio id="audio-player"></audio>
+            <div class="controls">
+                <button id="play-pause-btn">Play</button>
+            </div>
+        </div>
+        <input type="text" id="answer-input" placeholder="Type your answer here..." autocomplete="off">
+        <div id="suggestions" class="suggestions"></div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
